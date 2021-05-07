@@ -1,0 +1,79 @@
+* {
+  outline: solid 1px red;
+}
+
+:root {
+  --game: #49edda;
+  --tv-btn: red;
+  --books-btn: blue;
+  --btn-text: white;
+}
+
+body {
+  background-color: whitesmoke;
+  border: 0;
+}
+.big-story {
+  background-color: lightgrey;
+}
+.title-txt {
+  font-size: 48px;
+}
+.sw-txt {
+  position: absolute;
+  margin-top: -200px;
+  margin-bottom: 100px;
+  display: inline;
+}
+.p-txt {
+  width: 200px;
+  height: 120px;
+  align-content: center;
+  margin-left: 5rem;
+}
+.btn {
+  align-content: center;
+  color: var(--btn-text);
+  width: 150px;
+  height: 45px;
+  font-weight: 900;
+  margin-left: 8rem;
+}
+.btn-tv {
+  align-content: center;
+  color: var(--btn-text);
+  width: 40px;
+  height: 40px;
+  font-weight: 900;
+  background-color: var(--tv-btn);
+}
+.btn-movie {
+  align-content: center;
+  color: var(--btn-text);
+  width: 100px;
+  height: 45px;
+  font-weight: 900;
+  margin-left: 8rem;
+}
+.btn-books {
+  align-content: center;
+  color: var(--btn-text);
+  width: 150px;
+  height: 45px;
+  font-weight: 900;
+  margin-left: 8rem;
+  background-color: var(--books-btn);
+}
+.small-ad {
+  align-content: center;
+  background-color: wheat;
+  height: 100px;
+  width: 800px;
+  margin-left: 10rem;
+}
+.img-size {
+  height: 250px;
+  width: 350px;
+  object-fit: contain;
+  align-items: center;
+}
